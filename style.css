@@ -1,0 +1,50 @@
+/* navigation bar styling*/
+
+.menu-list {
+ max-width: 300px;
+ margin: auto;
+ height: 500px;
+ color: white;
+ background-color: green;
+ border-radius: 10px;
+}
+
+/* logo,naviagtion menu styling */
+
+.navigation {
+ overflow: hidden;
+ background-color: #111;
+ position: relative;
+}
+
+/* styling navigation menu*/
+
+.navigation #menu {
+  display: none;
+}
+
+/* link specify styling*/
+
+.navigation a{
+ text-decoration: none;
+ color: white;
+ padding: 14px 16px;
+ font-size: 16px;
+ display: block;
+}
+
+/*navigation toggle menu styling*/
+
+.navigation a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* hover effect on navigation logo and menu */
+
+.navigation a:hover {
+ background-color: #ddc;
+ color: black;
+}
